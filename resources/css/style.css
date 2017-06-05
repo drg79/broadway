@@ -4,10 +4,31 @@ body {
   text-align: center
 }
 
-nav {
+h1,
+h4 {
+  color: white;
+  }
+
+h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#header {
   background-image: url("../images/the-flatiron-building.png");
 }
 
 #divider {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
 }
