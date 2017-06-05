@@ -1,6 +1,6 @@
 
 body {
-  font-family: Heletica, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-align: center
 }
 
@@ -8,6 +8,7 @@ body {
 a {
   color: white;
   font-size: 18px;
+
   }
 
 h1{
@@ -40,16 +41,22 @@ p {
 #divider {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  padding: 0 auto;
+  background-position: center;
+  width: 100%;
+  height: auto;
   color: white;
-}
 
-#copyright {
-  font-size: 11px;
-  color: white;
 }
 
 .footer {
+  display: block;
+  font-size: 11px;
+  color: white;
   background-color: dimgray;
   text-align: left;
+
+
+}
+#copy {
+  font-size: 11px;
 }
