@@ -2,15 +2,12 @@
 body {
   font-family: Helvetica, sans-serif;
   text-align: center;
-
 }
 
 
 a {
   color: white;
   font-size: 18px;
-
-
   }
 
 h1{
@@ -33,6 +30,22 @@ h4 {
   font-size: 18px;
   color: white;
 }
+
+p {
+  font-size: 14px;
+}
+
+.footer p {
+    font-size: 11px;
+}
+/* copyright size issue FINALLY RESOLVED satisfactorily in CSS by simply re-instating p{} selector with value of 14px (for the majority of <p> elements on page.
+Then adding a rule to copyright txt by selecting only p elements nested within (child of) .footer,and adding a value of 11px.
+.footer p {
+    font-size: 11px;
+
+still Not sure why selector of tag <p> was overriding class .footer in a prev version(?)
+Maybe i need to chain selectors?
+Also it seems css selector <a> overrides tag <p> (in a previous version), not sure why(?) */
 
 
 #header,
