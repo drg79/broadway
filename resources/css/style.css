@@ -4,13 +4,17 @@ body {
   text-align: center
 }
 
-h1 {
+
+a {
   color: white;
+  font-size: 18px;
   }
 
 h1{
+  color: white;
   font-size: 70px;
   font-weight: bold;
+
 }
 
 h2 {
@@ -35,6 +39,13 @@ p {
 #header,
 #divider {
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  padding: 0 auto;
+  color: white;
+}
+
+#copyright {
+  font-size: 11px;
   color: white;
 }
 
