@@ -3,3 +3,11 @@ body {
   font-family: Heletica, sans-serif;
   text-align: center
 }
+
+nav {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+#divider {
+  background-image: url("../images/the-flatiron-building.png");
+}
