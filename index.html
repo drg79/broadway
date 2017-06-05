@@ -11,13 +11,13 @@
 
     <div id="header">
       <h1>Broadway Design</h1>
-      <nav>
+
         <p><a href="#">Home</a></p>
         <p><a href="#">Process</a></p>
         <p><a href="#">Work</a></p>
         <p><a href="#">Team</a></p>
         <p><a href="#">Contact</a></p>
-      </nav>
+
     </div>
 <!-- TOP SECTION-->
     <h2>Our Process</h2>
@@ -39,7 +39,7 @@
       <img src=".\resources\images\execute.svg" alt="">
       <p>We put everything we have into our work.</p>
     </div>
-    
+
 <!--DIVIDER-->
     <h3 id="divider">Designed in New York</h3>
 
@@ -50,12 +50,26 @@
       <p>We're Hiring!</p>
       <h3>Contact</h3>
       <p>Phone: (555)-555-5555</p>
-
       <p>E-mail: test@example.com</p>
-
       <p>Twitter: @test</p>
 <!--FOOTER-->
     <div class="footer">
+      <p>© Broadway 2017
+<!--  copyright size issue resolved (unsatifactorily) by simply removing <p> font size value in CSS (reverts to default?)
+and allowing .footer to specify 11px font size. Not sure why selector of tag <p> is overriding class .footer(?)
+Maybe i need to chain selectors?
+Also it seems css selector <a> overrides tag <p> (in a previous version), not sure of hierarchy rules (?)-->
+
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Team</a>
+        <a href="#">Contact</a>
+      </p>
+    </div>
+      <!--*****inline footer links issue RESOLVED by putting the copyright info and anchors all within one <p> element.
+      various attempts at using (CSS) display: block / inline /inline-block, did not help.
+      This was previous bad  code that put links on line below copyright: <div class="footer">
       <p id="copy">© Broadway 2017</p>
       <p>
         <a href="#">Home</a>        <a href="#">About</a>
@@ -63,7 +77,8 @@
         <a href="#">Team</a>
         <a href="#">Contact</a>
       </p>
-    </div>
+    </div>*****-->
+
 
   </body>
   </html>

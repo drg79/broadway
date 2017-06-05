@@ -1,7 +1,8 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  text-align: center
+  text-align: center;
+
 }
 
 
@@ -9,13 +10,13 @@ a {
   color: white;
   font-size: 18px;
 
+
   }
 
 h1{
   color: white;
   font-size: 70px;
   font-weight: bold;
-
 }
 
 h2 {
@@ -33,30 +34,22 @@ h4 {
   color: white;
 }
 
-p {
-  font-size: 14px;
-}
 
 #header,
 #divider {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: auto;
   color: white;
+  /*header image wrap issue resolved by using no-repeat, but is still not fullwidth - image is narrower than screen.
+  tried width: 100% rule but made no difference
+  (i want to avoid stretching or enlarging anyway.) */
 
 }
 
 .footer {
-  display: block;
   font-size: 11px;
   color: white;
   background-color: dimgray;
   text-align: left;
-
-
-}
-#copy {
-  font-size: 11px;
 }
