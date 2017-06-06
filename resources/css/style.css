@@ -38,14 +38,6 @@ p {
 .footer p {
     font-size: 11px;
 }
-/* copyright size issue FINALLY RESOLVED satisfactorily in CSS by simply re-instating p{} selector with value of 14px (for the majority of <p> elements on page.
-Then adding a rule to copyright txt by selecting only p elements nested within (child of) .footer,and adding a value of 11px.
-.footer p {
-    font-size: 11px;
-
-still Not sure why selector of tag <p> was overriding (more specific) class .footer in a prev version(?)
-
-Also it seems css selector <a> overrides tag <p> (in a previous version), not sure why(?) */
 
 
 .header,
@@ -55,10 +47,6 @@ Also it seems css selector <a> overrides tag <p> (in a previous version), not su
   background-size: cover;
   color: white;
 }
-
-  /*header image wrap issue FINALLY RESOLVED as full width by using background-size: cover; -i guess this slightly enlarges the image
-  which is not ideal (stretched and/or enlarged images look bad) but it´s a very small margin of change on my screen. This could be an
-  issue with smaller images and/or bigger screens.*/
 
 
 .footer {
