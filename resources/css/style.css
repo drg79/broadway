@@ -48,11 +48,12 @@ still Not sure why selector of tag <p> was overriding (more specific) class .foo
 Also it seems css selector <a> overrides tag <p> (in a previous version), not sure why(?) */
 
 
-#header,
+.header,
 #divider {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
   /*header image wrap issue FINALLY RESOLVED as full width by using background-size: cover; -i guess this slightly enlarges the image
