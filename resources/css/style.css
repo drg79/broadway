@@ -43,8 +43,8 @@ Then adding a rule to copyright txt by selecting only p elements nested within (
 .footer p {
     font-size: 11px;
 
-still Not sure why selector of tag <p> was overriding class .footer in a prev version(?)
-Maybe i need to chain selectors?
+still Not sure why selector of tag <p> was overriding (more specific) class .footer in a prev version(?)
+
 Also it seems css selector <a> overrides tag <p> (in a previous version), not sure why(?) */
 
 
@@ -52,13 +52,13 @@ Also it seems css selector <a> overrides tag <p> (in a previous version), not su
 #divider {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-  /*header image wrap issue resolved by using no-repeat, but is still not fullwidth - image is narrower than screen.
-  tried width: 100% rule but made no difference
-  (i want to avoid stretching or enlarging anyway.) */
-
+  background-size: cover;
 }
+
+  /*header image wrap issue FINALLY RESOLVED as full width by using background-size: cover; -i guess this slightly enlarges the image
+  which is not ideal (stretched and/or enlarged images look bad) but it´s a very small margin of change on my screen. This could be an
+  issue with smaller images and/or bigger screens.*/
+
 
 .footer {
   font-size: 11px;
